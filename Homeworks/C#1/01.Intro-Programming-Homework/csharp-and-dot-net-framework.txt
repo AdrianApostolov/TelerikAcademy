@@ -1,0 +1,8 @@
+.NET Framework is a software framework. It includes a large class library
+known as the Framework Class Library (FCL) and provides language interoperability.
+Programs written for the .NET Framework execute in a software environment known as
+the Common Language Runtime (CLR). The FCL and the CLR together constitute the 
+.NET Framework.
+C# is a programming language developed by Microsoft within its .NET initiative.
+C# is one of the programming languages designed for the Common Language Infrastructure
+(CLI).
