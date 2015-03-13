@@ -9,16 +9,7 @@
 
         private static Call FindLongestCall(GSM gsm)
         {
-            double longest = uint.MinValue;
-            foreach (var call in gsm.CallHistory)
-            {
-                if (call.Duration > longest)
-                {
-                    longest = call.Duration;
-                }
-            }
-
-            Call longestCall = gsm.CallHistory.FirstOrDefault(c => c.Duration == longest);
+            Call longestCall = gsm.CallHistory.OrderBy(c => c.Duration).Last();
 
             return longestCall;
         }
@@ -27,16 +18,9 @@
         {
             GSM gsm = new GSM("XPERIA", "Sony Corp.", new Battery(BatteryType.Li_Ion, 1000, 500), new Display(5, 16000000));
 
-            List<Call> fewCalls = new List<Call>();
-
-            fewCalls.Add(new Call("0888123456", 300));
-            fewCalls.Add(new Call("0888654321", 100));
-            fewCalls.Add(new Call("0888888888", 200));
-
-            foreach (var call in fewCalls)
-            {
-                gsm.AddCall(call);
-            }
+            gsm.AddCall(new Call("0888123456", 300));
+            gsm.AddCall(new Call("0888654321", 100));
+            gsm.AddCall(new Call("0888888888", 200));
 
             decimal totalPriceOfCalls = gsm.CalculateTotalCallPrice((decimal)0.37);
 
