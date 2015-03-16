@@ -1,0 +1,5 @@
+3DPoint(2, 4, 3)
+3DPoint(2, 4, 7)
+3DPoint(1, 7, 4)
+3DPoint(3, 6, 9)
+3DPoint(2, 8, 7)
