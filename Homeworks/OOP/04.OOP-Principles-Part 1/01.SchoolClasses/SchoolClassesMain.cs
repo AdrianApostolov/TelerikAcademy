@@ -32,6 +32,8 @@ namespace SchoolClasses
                 new List<Teacher> {firstTeacher, secodTeacher, thirdTeacher});
 
             school.AddClass(schoolClass);
+
+            Console.Write(school.ToString());
         }
     }
 }

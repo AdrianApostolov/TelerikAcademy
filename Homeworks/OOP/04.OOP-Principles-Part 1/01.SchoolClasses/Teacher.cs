@@ -1,6 +1,7 @@
 ﻿namespace SchoolClasses
 {
     using System;
+    using System.Text;
     using System.Collections.Generic;
 
     public class Teacher : Person, IComment
@@ -15,7 +16,8 @@
         }
 
 
-        public Teacher(string name, List<Discipline> disciplines, string comment) : this (name, disciplines)
+        public Teacher(string name, List<Discipline> disciplines, string comment) 
+            : this (name, disciplines)
         {
             this.Comment = comment;
         }
@@ -53,6 +55,18 @@
         public void AddDiscipline(Discipline discipline)
         {
             this.disciplines.Add(discipline);
+        }
+
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine(base.ToString());
+
+            foreach (var discipline in this.Disciplines)
+            {
+                sb.AppendLine(discipline.ToString());
+            }
+            return sb.ToString();
         }
     }
 }

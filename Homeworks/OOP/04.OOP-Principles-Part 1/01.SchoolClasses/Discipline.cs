@@ -88,6 +88,10 @@
             }
         }
 
-
+        public override string ToString()
+        {
+            return string.Format("Discipline: {0} with number of lecture: {1} and number of exercises: {2}"
+                ,this.Name, this.NumberOfLectures, this.NumberOfExercises);
+        }
     }
 }

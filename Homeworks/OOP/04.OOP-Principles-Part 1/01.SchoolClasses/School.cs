@@ -4,7 +4,7 @@
     using System.Text;
     using System.Collections.Generic;
 
-    class School
+    public class School
     {
         private string name;
         private List<Class> classes;
@@ -42,6 +42,20 @@
         public void AddClass(Class newClass)
         {
             this.classes.Add(newClass);
+        }
+
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.Append("School name: ");
+            sb.AppendLine(this.Name);
+
+            foreach (var course in this.Classes)
+            {
+                sb.AppendLine(course.ToString());
+            }
+
+            return sb.ToString();
         }
     }
 }

@@ -49,5 +49,10 @@
                 this.comment = value;
             }
         }
+
+        public override string ToString()
+        {
+            return string.Format("Studet name: {0}, identifier: {1}, comment: {2}", base.ToString(), this.ClassNumber, this.Comment);
+        }
     }
 }

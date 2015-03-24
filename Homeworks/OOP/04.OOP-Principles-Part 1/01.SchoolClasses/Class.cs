@@ -1,6 +1,7 @@
 ﻿namespace SchoolClasses
 {
     using System;
+    using System.Text;
     using System.Collections.Generic;
 
     public class Class : IComment
@@ -13,8 +14,8 @@
         public Class(string identifier, List<Student> students, List<Teacher> teachers)
         {
             this.Identifier = identifier;
-            this.students = new List<Student>();
-            this.teachers = new List<Teacher>();
+            this.Students = students;
+            this.Teachers = teachers;
         }
 
         public Class (string identifier, List<Student> students, List<Teacher> teachers, string comment)
@@ -44,7 +45,7 @@
             }
         }
 
-        public List<Student> Student
+        public List<Student> Students
         {
             get
             {
@@ -62,7 +63,7 @@
             }
         }
 
-        public List<Teacher> Teacher
+        public List<Teacher> Teachers
         {
             get
             {
@@ -90,6 +91,26 @@
             {
                 this.comment = value;
             }
+        }
+
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.Append("Class identifier: ");
+            sb.AppendLine(this.Identifier);
+
+            foreach (var student in this.Students)
+            {
+                sb.AppendLine(student.ToString());
+            }
+
+            foreach (var teacher in this.Teachers)
+            {
+                sb.Append("Teacher name: ");
+                sb.Append(teacher.ToString());
+            }
+
+            return sb.ToString().Trim();
         }
     }
 }
