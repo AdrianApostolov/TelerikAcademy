@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Registration Form</title>
+    <style>
+        tfoot
+        {
+            text-align:center
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <table cellpadding="5" cellspacing="0" border="1">
+            <tbody>
+                <tr>
+                    <td><label for="last-name"><b>Last Name </b></label></td>
+                    <td colspan="3"><input type="text" id="last-name" autofocus="autofocus" size="30" /></td>
+                </tr>
+
+                <tr>
+                    <td><label for="first-name"><b>First Name </b></label></td>
+                    <td colspan="3"><input type="text" id="first-name" size="30" /></td>
+                </tr>
+
+                <tr>
+                    <td><label for="address"><b>Address </b></label></td>
+                    <td colspan="3"><textarea id="address" cols="30" rows="5"></textarea></td>
+                </tr>
+
+                <tr>
+                    <td><label for="city"><b>City </b></label></td>
+                    <td colspan="3">
+                        <input type="text" id="city" size="18" />
+                        <label for="state">State </label>
+                        <input type="text" id="state" size="3" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="zip-postal"><b>Zip/Postal Code</b></label></td>
+                    <td><input type="text" id="zip-postal" pattern="[0-9]{4}" size="5" /></td>
+                </tr>
+
+                <tr>
+                    <td><label for="country"><b>Country </b></label></td>
+                    <td colspan="3">
+                        <select id="country">
+                            <option value="Bulgaria" selected="selected">Bulgaria</option>
+                            <option value="Norway">Norway</option>
+                            <option value="Germany">Germany</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="countrycode"><b>Phone (country code,<br />area code, number)</b></label></td>
+                    <td colspan="3">
+                        (+<input type="text" pattern="[0-9]{2}" id="countrycode" size="3" />)
+                        <input type="text" pattern="[0-9]{2}" size="3" /> -
+                        <input type="text" pattern="[0-9]{5}" size="10" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="email"><b>Email</b></label></td>
+                    <td>
+                        <input type="email" id="email" pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" size="30" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="birth-date"><b>Birth date </b></label></td>
+                    <td><input type="text" placeholder="дд.мм.гггг г." /></td>
+                </tr>
+
+                <tr>
+                    <td><label for="gender"><b>Gender</b></label></td>
+                    <td>
+                        <select id="gender">
+                            <option value="Male" selected="selected">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><b>Starting date</b></td>
+                    <td>
+                        <input type="radio" id="spring" />
+                        <label for="spring">Spring 2015</label>
+                        <input type="radio" id="summer" />
+                        <label for="summer">Summer 2015</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="comments"><b>Comments/Questions </b></label></td>
+                    <td colspan="3"><textarea id="comments" cols="30" rows="8"></textarea></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4" style="background-color:aquamarine">
+                        <input type="submit" value="Submit" />
+                        <input type="reset" value="Clear This Form" />
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </form>
+</body>
+</html>
