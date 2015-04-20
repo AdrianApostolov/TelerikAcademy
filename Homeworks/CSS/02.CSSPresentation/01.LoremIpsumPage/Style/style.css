@@ -1,0 +1,10 @@
+﻿p {
+    font-family:Consolas;
+    font-size:10px;
+    color:#0094ff;
+}
+
+p:first-letter{
+    font-family:'Edwardian Script ITC';
+    font-size: 40px;
+}
