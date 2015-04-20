@@ -1,0 +1,32 @@
+﻿body {
+    background-color: #a9a9a9;
+}
+
+#minko-ivanov, h1, a{
+    color: #fafad2;
+}
+
+#last-footer,#the-header,nav{
+    text-align:center;
+}
+
+ul{
+    list-style-type:none;
+}
+
+a{
+    text-decoration:none;
+}
+
+#last-li{
+    text-decoration:underline;
+}
+.doncho-minkov{
+    color:black;
+}
+
+#second-li{
+    background-color:#d3d3d3;
+    width:60px;
+    margin-left: 47%;
+}
