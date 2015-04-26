@@ -1,0 +1,29 @@
+﻿ul {
+    list-style-type: none;
+}
+
+.list {
+    overflow: hidden;
+    margin: .5em 0;
+    max-height: 1em;
+    -webkit-transition: max-height 500ms ease-out;
+    -moz-transition: max-height 500ms ease-out;
+    -o-transition: max-height 500ms ease-out;
+    transition: max-height 500ms ease-out;
+}
+
+    .list:hover {
+        max-height: 12em;
+    }
+
+    .list li {
+        margin-left: 1em;
+        color: #888;
+    }
+
+    .list ul {
+        display: block;
+        color: inherit;
+    }
+
+   

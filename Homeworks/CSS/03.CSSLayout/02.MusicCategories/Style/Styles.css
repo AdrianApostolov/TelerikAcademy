@@ -1,0 +1,43 @@
+﻿body {
+    margin: 15px;
+    font: 14px Verdana, sans-serif;
+}
+
+article {
+    background-color: #EEEEEE;
+    border-radius: 10px;
+    padding: 15px;
+    width: 444px;
+    height: 530px;
+}
+
+h1 {
+    font-size: 16px;
+    font-family: sans-serif;
+    position:relative;
+    top: -20px;
+}
+
+img {
+    width: 130px;
+    height: 86px;
+}
+
+section {
+    overflow: hidden;
+    padding: 15px;
+    border: 1px solid #989898;
+    background: #fff;
+    margin-bottom:35px;
+}
+
+section p{
+   padding-left : 150px;
+   margin-top: -90px;
+}
+
+.button{
+    position:relative;
+    left:245px;
+       
+}

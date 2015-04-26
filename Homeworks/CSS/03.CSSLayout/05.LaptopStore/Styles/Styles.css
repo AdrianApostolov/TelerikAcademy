@@ -1,0 +1,96 @@
+﻿body {
+    font-family: Calibri,Verdana,sans-serif;
+    text-align: center;
+    margin-left: 25%;
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 613px;
+    width: 660px;
+}
+
+div#wrapper {
+    width: 650px;
+    margin-left: 10px;
+}
+
+header nav {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+hr {
+    width: 96%;
+    border: 1px solid black;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: -40px;
+}
+
+    ul.navi li {
+        padding: 5px;
+        display: inline;
+    }
+
+div#tablelaptops {
+    position: relative;
+    float: left;
+    width: 465px;
+    display: inline;
+    border: 2px solid black;
+    border-radius: 3px;
+    padding: 0 5px 10px 5px;
+}
+
+fieldset {
+    width: 200px;
+    float: left;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+legend {
+    text-align: center;
+}
+
+img {
+    float: left;
+    margin-right: 10px;
+    width: 126px;
+    height: 80px;
+}
+
+.data1 {
+    line-height: 220%;
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.data2 {
+    clear: left;
+}
+
+    .data2 li {
+        display: inline;
+    }
+
+        .data2 li:first-child {
+            padding-right: 40px;
+        }
+
+div#sliders {
+    position: relative;
+    padding-top: 50px;
+}
+
+    div#sliders ul {
+        line-height: 220%;
+        padding-left: 10px;
+    }
+
+        div#sliders ul li {
+            padding: 5px 5px 5px 10px;
+            display: inline;
+        }

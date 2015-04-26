@@ -1,0 +1,71 @@
+﻿.header-field {
+    width: 680px;
+    height: 60px;
+    border-radius: 15px 15px 0 0;
+    margin-bottom: -30px;
+    font: 14px/1.2 Verdana, sans-serif;
+    background: #3b3b3b; /* Old browsers */
+    background: -moz-linear-gradient(top, #3b3b3b 19%, #323232 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(19%,#3b3b3b), color-stop(100%,#323232)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #3b3b3b 19%,#323232 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #3b3b3b 19%,#323232 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #3b3b3b 19%,#323232 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #3b3b3b 19%,#323232 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b3b3b', endColorstr='#323232',GradientType=0 ); /* IE6-9 */
+}
+
+.main-field {
+    border-radius: 20px;
+}
+
+span{
+    color: #F8F8F8;
+    font-size: 20px;
+    position:relative;
+    left: 10px;
+    top: -8px;
+}
+
+input{
+    position:relative;
+    top: -10px;
+    margin-left: 23px;
+}
+
+#go-button{
+    position:relative;
+    top: 0;
+    width: 60px;
+}
+
+#logo{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+article {
+    width: 660px;
+    background-color: #3b3b3b;
+    color: #9d9d9d;
+    padding-left: 20px;
+    border-radius: 0 0 15px 15px
+}
+
+article p{
+    font-size: 16px;
+    margin-right: 90px;
+    margin-bottom:-16px;
+}
+
+h1 {
+    color: yellow;
+    font-size: 30px;
+    font-weight: normal;
+    position:relative;
+    top: 10px;
+}
+
+strong {
+    color: #F8F8F8;
+    font-weight: normal;
+}
