@@ -1,0 +1,131 @@
+﻿@color0: rgba(0,0,0,0.1);
+@color1: #fff;
+@color2: rgba(0,0,0,0);
+@color3: #22272c;
+@color4: rgba(0,0,0,0.4),;
+@color5: rgba(255,255,255,0.4);
+
+#images-box {
+    width: 850px;
+    margin: 0 auto;
+    position: relative;
+    top: 70px;
+}
+
+.image-lightbox {
+    width: inherit;
+    height: inherit;
+    padding: 10px;
+    box-shadow: 0px 0px 10px @color0;
+    background: @color1;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    font-family: Arial, sans-serif;
+    -webkit-transition: all ease-in 0.5s;
+    -moz-transition: all ease-in 0.5s;
+    -ms-transition: all ease-in 0.5s;
+    -o-transition: all ease-in 0.5s;
+
+    img {
+        width: inherit;
+        height: inherit;
+        z-index: 3000;
+    }
+
+    span {
+        display: none;
+    }
+
+    .expand {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        z-index: 4000;
+        background: @color2;
+    }
+
+    .close {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        right: 20px;
+        top: 20px;
+
+        a {
+            height: auto;
+            width: auto;
+            padding: 5px 10px;
+            color: @color1;
+            text-decoration: none;
+            background: @color3;
+            box-shadow: inset 0px 24px 20px -15px rgba(255, 255, 255, 0.1), inset 0px 0px 10px @color4 0px 0px 30px @color5;
+            border-radius: 5px;
+            font-weight: bold;
+            float: right;
+
+            &:hover {
+                box-shadow: inset 0px -24px 20px -15px rgba(255, 255, 255, 0.01), inset 0px 0px 10px @color4 0px 0px 20px @color5;
+            }
+        }
+    }
+}
+
+.holder {
+    width: 220px;
+    height: 166px;
+    float: left;
+    margin: 0 20px 0 0;
+}
+
+div#image-1 {
+    left: -290px;
+}
+
+div#image-2 {
+    left: -60px;
+}
+
+div#image-3 {
+    left: 175px;
+}
+
+div#image-4 {
+    left: 410px;
+}
+
+div#image-5 {
+    left: 645px;
+}
+
+div#image-6 {
+    left: 883px;
+}
+
+div[id^=image] {
+    &:target {
+        width: 500px;
+        height: 350px;
+        z-index: 5000;
+        top: 50px;
+        left: 200px;
+
+        .close {
+            display: block;
+        }
+
+        .expand {
+            display: none;
+        }
+    }
+}
+
+div#image-1:target,
+div#image-2:target,
+div#image-3:target,
+div#image-4:target,
+div#image-5:target,
+div#image-6:target {
+    left: 200px;
+}
