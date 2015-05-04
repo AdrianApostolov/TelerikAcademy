@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Quadratic Equation</title>
+    <script src="QuadraticEquation.js"></script>
+
+    <style>
+        body{
+            font-size: 26px;;
+        }
+        table, tr, td{
+            border-style: none;
+        }
+        #main{
+            width: 300px;
+            height: 180px;
+        }
+        input[type="button"]{
+            margin-left: 55px;
+        }
+    </style>
+</head>
+<body>
+<form name=form>
+    <table id="main" align="center" >
+        <tr>
+            <td colspan=2 align=center><b>Quadratic Equation:<br>Ax<sup>2</sup> + Bx + C = 0</b></td>
+        </tr>
+        <tr>
+            <td>
+                <table border=1 width=100% cellpadding=2>
+                    <tr>
+                        <td align=center><b>A = </b></td>
+                        <td align=center><input type=text size=6 name="a"></td>
+                    </tr>
+                    <tr>
+                        <td align=center><b>B = </b></td>
+                        <td align=center><input type=text size=6 name="b"></td>
+                    </tr>
+                    <tr>
+                        <td align=center><b>C = </b></td>
+                        <td align=center><input type=text size=6 name="c"></td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table border=1 width=100% cellpadding=2>
+                    <tr>
+                        <td colspan=2 align=center>
+                            <input type=button value="Solve" onClick="quadraticEquation(this.form)"></td>
+                    </tr>
+                    <tr>
+                        <td align=center><b>X1 = </b></td>
+                        <td align=center><input type=text size=6 name="x1"></td>
+                    </tr>
+                    <tr>
+                        <td align=center><b>X2 = </b></td>
+                        <td align=center><input type=text size=6 name="x2"></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
