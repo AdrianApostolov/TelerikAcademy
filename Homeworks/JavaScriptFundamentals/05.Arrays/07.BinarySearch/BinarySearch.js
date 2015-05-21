@@ -19,7 +19,7 @@ console.log('Test array is: [' + array + ']');
 function getIndex() {
     searchNumber = jsConsole.readInteger('#search-number');
 
-    while ((end - start) > 1) {
+    while ((end - start) >= 1) {
 
         index = start + (((end - start) / 2) | 0);
 
