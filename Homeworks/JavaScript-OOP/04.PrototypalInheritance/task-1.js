@@ -126,6 +126,15 @@ function solve() {
                 this.attributes[name] = value;
                 return this;
             },
+            removeAttribute: function (attribute) {
+                if (!this.attributes[attribute]) {
+                    throw new Error('Cannot remove a non-existing attribute.')
+                }
+
+                delete this.attributes[attribute];
+
+                return this;
+            },
             get innerHTML() {
                 var result = '';
                 result += '<' + this.type;
@@ -205,8 +214,3 @@ function solve() {
     return domElement;
 }
 module.exports = solve;
-
-solve();
-
-
-
