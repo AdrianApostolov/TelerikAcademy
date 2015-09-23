@@ -25,7 +25,7 @@
 * При рефакториране, когато се установи общо поведение сред класове
 
 #### Пример
-
+~~~c#
     using System;
     
       class MainApp
@@ -84,7 +84,7 @@
           Console.WriteLine("ConcreteClassB.PrimitiveOperation2()");
         }
       }
-
+~~~
 #### Source:
 * [oodesign](http://www.oodesign.com/template-method-pattern.html)
 * [sourcemaking](https://sourcemaking.com/design_patterns/template_method/c-sharp-dot-net)

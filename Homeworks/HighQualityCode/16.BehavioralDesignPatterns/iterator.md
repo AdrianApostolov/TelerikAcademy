@@ -25,7 +25,7 @@
 * Когато трябва да се достъпи съдържанието на колекция, без експоузването на вътрешната и структура
 
 #### Пример
-
+~~~c#
     interface IIterator
     {
     	public boolean hasNext();
@@ -68,6 +68,6 @@
     		}
     	}
     }
-
+~~~
 #### Source:
 * [oodesign](http://www.oodesign.com/iterator-pattern.html)

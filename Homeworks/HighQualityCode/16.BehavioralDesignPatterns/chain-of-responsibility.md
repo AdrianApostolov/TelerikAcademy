@@ -27,7 +27,7 @@
 * Получателят трябва да бъде определен автоматично
 
 #### Пример
-
+~~~c#
     using System;
      
     namespace DoFactory.GangOfFour.Chain.Structural
@@ -135,7 +135,7 @@
         }
       }
     }
-	
+~~~
 #### Source:
 * [codeproject](http://www.codeproject.com/Articles/743783/Reusable-Chain-of-responsibility-in-Csharp)
 * [oodesign](http://www.oodesign.com/chain-of-responsibility-pattern.html)

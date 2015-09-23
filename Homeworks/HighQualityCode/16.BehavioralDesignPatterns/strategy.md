@@ -27,7 +27,7 @@
 * Когато добавянето на нова операция ще доведе до модифициране на клас
 
 #### Пример
-
+~~~c#
     public interface IBehaviour {
     	public int moveCommand();
     }
@@ -126,6 +126,6 @@
     		r3.move();
     	}
     }
-
+~~~
 #### Source:
 * [oodesign](http://www.oodesign.com/strategy-pattern.html)
