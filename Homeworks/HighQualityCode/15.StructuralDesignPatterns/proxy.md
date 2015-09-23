@@ -26,7 +26,7 @@
 * Когато е необходимо да бъде контролиран достъпът до обекта
 
 #### Пример
-
+~~~c#
     interface IActualPrices
     {
         string GoldPrice
@@ -191,7 +191,7 @@
         Console.WriteLine("Dollar to Ruppe Conversion: ");
         Console.WriteLine(proxy.DollarToRupee);
     }    
-	
+~~~	
 #### Source:
 * [codeproject](http://www.codeproject.com/Articles/492594/Understanding-and-Implementing-Proxy-Pattern-in-Cs)
 * [oodesign](http://www.oodesign.com/proxy-pattern.html)

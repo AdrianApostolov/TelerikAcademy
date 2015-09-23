@@ -24,7 +24,7 @@
 * Когато е необходимо добавянето на допълнителни отговорности по време на изпълнение (например GUI)
 
 #### Пример
-
+~~~c#
     public abstract class BakeryComponent
     {
         public abstract string GetName();
@@ -168,7 +168,7 @@
         CherryDecorator cherryPastry = new CherryDecorator(creamPastry);
         PrintProductDetails(cherryPastry);
     }
-	
+~~~
 #### Source:
 * [codeproject](http://www.codeproject.com/Articles/479635/UnderstandingplusandplusImplementingplusDecoratorp)
 * [oodesign](http://www.oodesign.com/decorator-pattern.html)

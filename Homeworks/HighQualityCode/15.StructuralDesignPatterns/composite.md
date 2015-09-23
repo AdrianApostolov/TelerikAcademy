@@ -25,7 +25,7 @@
 * Когато е налице йерархия от обекти и клинета трябва да ги разглежда равномерно, независимо дали обекта е клон или листо
 
 #### Пример
-
+~~~c#
     using System;
     using System.Collections.Generic;
      
@@ -147,7 +147,7 @@
         }
       }
     }    
-	
+~~~
 #### Source:
 * [dofactory](http://www.dofactory.com/net/composite-design-pattern)
 * [oodesign](http://www.oodesign.com/composite-pattern.html)
