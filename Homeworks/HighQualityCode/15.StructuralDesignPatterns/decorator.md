@@ -8,7 +8,7 @@
 * Да добавя допълнителни отговорности към обекта динамично, по време на изпълнение
  
 #### Структура 
- ![alt text] (https://github.com/AdrianApostolov/TelerikAcademy/blob/master/Homeworks/HighQualityCode/15.StructuralDesignPatterns/imgs/decorator-uml.svg "Decorator UML Diagram")
+ ![alt text] (https://rawgit.com/AdrianApostolov/TelerikAcademy/master/Homeworks/HighQualityCode/15.StructuralDesignPatterns/imgs/decorator-uml.svg "Decorator UML Diagram")
 
 #### Участниците в процеса:
 - **Component** - интерфейс на обектите, които могат да бъдат променяни динамично

@@ -10,7 +10,7 @@
 * Да осигури заместител на обект, за да контролира референциите към него
  
 #### Структура 
- ![alt text] (https://github.com/AdrianApostolov/TelerikAcademy/blob/master/Homeworks/HighQualityCode/15.StructuralDesignPatterns/imgs/proxy-uml.svg "Proxy UML Diagram")
+ ![alt text] (https://rawgit.com/AdrianApostolov/TelerikAcademy/master/Homeworks/HighQualityCode/15.StructuralDesignPatterns/imgs/proxy-uml.svg "Proxy UML Diagram")
 
 #### Участниците в процеса:
 - **Subject** - Интерфейс, имплементиран от Real Subject, представящ услугите му; имплементиран и от Proxy

@@ -9,7 +9,7 @@
 * Дава възможност индивидуални обекти и композиции от обекти да бъдат третирани равномерно
  
 #### Структура 
- ![alt text](https://github.com/AdrianApostolov/TelerikAcademy/blob/master/Homeworks/HighQualityCode/15.StructuralDesignPatterns/imgs/composite-uml.svg "Composite UML Diagram")
+ ![alt text](https://rawgit.com/AdrianApostolov/TelerikAcademy/master/Homeworks/HighQualityCode/15.StructuralDesignPatterns/imgs/composite-uml.svg "Composite UML Diagram")
 
 #### Участниците в процеса:
 - **Component** - абстракция на листа (leafs) и композиции; дефинира интерфейса, който трябва да бъде имплементиран от обектите
