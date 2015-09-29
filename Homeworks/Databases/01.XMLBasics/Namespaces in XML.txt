@@ -1,0 +1,2 @@
+XML Namespaces enable the same document to contain XML elements and attributes taken from different vocabularies, without any naming collisions occurring. 
+Although XML Namespaces are not part of the XML specification itself, virtually all XML software also supports XML Namespaces.

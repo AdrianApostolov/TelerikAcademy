@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="students.xslt" ?>
+<students xmlns:students="urn:telerikacademy.com">
+  <student>
+    <name>Pesho Peshev</name>
+    <sex>Male</sex>
+    <birthDate>1991-02-11</birthDate>
+    <phone>+359888123456</phone>
+    <email>pesho@mail.com</email>
+    <course>Mathematics</course>
+    <specialty>Mathematics Sciences</specialty>
+    <facultyNumber>3252521</facultyNumber>
+    <exams>
+      <exam>
+        <name>C# OOP</name>
+        <tutor>Ivaylo Kenov</tutor>
+        <score>267</score>
+      </exam>
+      <exam>
+        <name>JS APPS</name>
+        <tutor>Doncho Minkov</tutor>
+        <score>68</score>
+      </exam>
+    </exams>
+  </student>
+
+  <student>
+    <name>Penka Goshova</name>
+    <sex>Female</sex>
+    <birthDate>1981-04-11</birthDate>
+    <phone>+359888654321</phone>
+    <email>penka@mail.com</email>
+    <course>Physics</course>
+    <specialty>Physics Sciences</specialty>
+    <facultyNumber>3414515</facultyNumber>
+    <exams>
+      <exam>
+        <name>C# 2</name>
+        <tutor>Nikolay Kostov</tutor>
+        <score>300</score>
+      </exam>
+      <exam>
+        <name>JS OOP</name>
+        <tutor>Doncho Minkov</tutor>
+        <score>80</score>
+      </exam>
+    </exams>
+  </student>
+</students>
