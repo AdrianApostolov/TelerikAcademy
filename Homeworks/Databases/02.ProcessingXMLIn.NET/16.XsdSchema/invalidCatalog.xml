@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<catalog>
+  <album>
+    <songs>
+      <song>
+        <title>Fuck Tha Police</title>
+        <duration>5:45</duration>
+      </song>
+
+      <song>
+        <title>A Bitch Iz A Bitch</title>
+        <duration>3:10</duration>
+      </song>
+    </songs>
+  </album>
+
+  <album>
+    <name>The Eminem Show </name>
+    <artist>Eminem</artist>
+    <year>2002</year>
+    <producer>Aftermath Records</producer>
+    <price>7.99</price>
+    <songs>
+      <song>
+        <title>Soldier</title>
+        <duration>3:36</duration>
+      </song>
+
+      <song>
+        <title>Business</title>
+        <duration>4:11</duration>
+      </song>
+    </songs>
+  </album>
+
+  <album>
+    <name>Legend</name>
+    <artist>Bob Marley</artist>
+    <year>1984</year>
+    <producer>Universal Island Records Ltd.</producer>
+    <price>10.99</price>
+    <songs>
+      <song>
+        <title>Is This Love</title>
+        <duration>3:49</duration>
+      </song>
+      <song>
+        <title>No Women No Cry</title>
+        <duration>7:08</duration>
+      </song>
+    </songs>
+  </album>
+</catalog>

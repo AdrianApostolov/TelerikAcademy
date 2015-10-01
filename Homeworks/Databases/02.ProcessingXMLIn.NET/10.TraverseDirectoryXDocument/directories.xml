@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs">
+  <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\7-Zip">
+    <file name="7-Zip File Manager" ext=".lnk" />
+    <file name="7-Zip Help" ext=".lnk" />
+  </dir>
+  <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessibility">
+    <file name="desktop" ext=".ini" />
+    <file name="Speech Recognition" ext=".lnk" />
+  </dir>
+  <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories">
+    <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\System Tools">
+      <file name="Character Map" ext=".lnk" />
+      <file name="desktop" ext=".ini" />
+    </dir>
+    <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\Tablet PC">
+      <file name="Desktop" ext=".ini" />
+      <file name="Windows Journal" ext=".lnk" />
+    </dir>
+    <file name="Calculator" ext=".lnk" />
+    <file name="desktop" ext=".ini" />
+    <file name="Math Input Panel" ext=".lnk" />
+    <file name="Paint" ext=".lnk" />
+    <file name="Remote Desktop Connection" ext=".lnk" />
+    <file name="Snipping Tool" ext=".lnk" />
+    <file name="Sound Recorder" ext=".lnk" />
+    <file name="Steps Recorder" ext=".lnk" />
+    <file name="Sticky Notes" ext=".lnk" />
+    <file name="Windows Fax and Scan" ext=".lnk" />
+    <file name="Windows Media Player" ext=".lnk" />
+    <file name="Wordpad" ext=".lnk" />
+    <file name="XPS Viewer" ext=".lnk" />
+  </dir>
+  <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools">
+    <file name="Component Services" ext=".lnk" />
+    <file name="Computer Management" ext=".lnk" />
+    <file name="desktop" ext=".ini" />
+    <file name="dfrgui" ext=".lnk" />
+    <file name="Disk Cleanup" ext=".lnk" />
+    <file name="Embedded Lockdown Manager" ext=".lnk" />
+    <file name="Event Viewer" ext=".lnk" />
+    <file name="iSCSI Initiator" ext=".lnk" />
+    <file name="Memory Diagnostics Tool" ext=".lnk" />
+    <file name="ODBC Data Sources (32-bit)" ext=".lnk" />
+    <file name="ODBC Data Sources (64-bit)" ext=".lnk" />
+    <file name="Performance Monitor" ext=".lnk" />
+    <file name="Print Management" ext=".lnk" />
+    <file name="Resource Monitor" ext=".lnk" />
+    <file name="Security Configuration Management" ext=".lnk" />
+    <file name="services" ext=".lnk" />
+    <file name="System Configuration" ext=".lnk" />
+    <file name="System Information" ext=".lnk" />
+    <file name="Task Scheduler" ext=".lnk" />
+    <file name="Windows Firewall with Advanced Security" ext=".lnk" />
+    <file name="Windows PowerShell (x86)" ext=".lnk" />
+    <file name="Windows PowerShell ISE (x86)" ext=".lnk" />
+    <file name="Windows PowerShell ISE" ext=".lnk" />
+  </dir>
+  <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\BT Program">
+    <file name="desktop" ext=".ini" />
+  </dir>
+  <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\DAEMON Tools Lite">
+    <file name="DAEMON Tools Lite" ext=".lnk" />
+    <file name="SPTD Setup" ext=".lnk" />
+  </dir>
+  <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Embedded Lockdown Manager">
+    <file name="desktop" ext=".ini" />
+    <file name="Embedded Lockdown Manager" ext=".lnk" />
+  </dir>
+  <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Git">
+    <file name="Git Bash" ext=".lnk" />
+    <file name="Git CMD" ext=".lnk" />
+    <file name="Git GUI" ext=".lnk" />
+  </dir>
+  <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Google Chrome">
+    <file name="Google Chrome" ext=".lnk" />
+  </dir>
+  <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Intel">
+    <file name="desktop" ext=".ini" />
+    <file name="Intel(R) Rapid Storage Technology" ext=".lnk" />
+  </dir>
+  <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\JetBrains">
+    <file name="JetBrains WebStorm 10.0.4" ext=".lnk" />
+  </dir>
+  <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Maintenance">
+    <file name="Desktop" ext=".ini" />
+  </dir>
+  <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Microsoft Expression">
+    <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Microsoft Expression\Microsoft Expression Blend SDK">
+      <file name="Expression Blend SDK Documentation" ext=".lnk" />
+    </dir>
+  </dir>
+  <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Microsoft Office 2013">
+    <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Microsoft Office 2013\Office 2013 Tools">
+      <file name="Database Compare 2013" ext=".lnk" />
+      <file name="Office 2013 Upload Center" ext=".lnk" />
+      <file name="Spreadsheet Compare 2013" ext=".lnk" />
+    </dir>
+    <file name="Excel 2013" ext=".lnk" />
+    <file name="PowerPoint 2013" ext=".lnk" />
+    <file name="Word 2013" ext=".lnk" />
+  </dir>
+  <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Microsoft Silverlight">
+    <file name="Microsoft Silverlight" ext=".lnk" />
+  </dir>
+  <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Microsoft Silverlight 5 SDK">
+    <file name="Welcome" ext=".lnk" />
+  </dir>
+  <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Microsoft SQL Server 2008">
+    <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Microsoft SQL Server 2008\Configuration Tools">
+      <file name="SQL Server Installation Center (64-bit)" ext=".lnk" />
+    </dir>
+  </dir>
+  <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Microsoft SQL Server 2014">
+    <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Microsoft SQL Server 2014\Analysis Services">
+      <file name="Deployment Wizard" ext=".lnk" />
+    </dir>
+    <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Microsoft SQL Server 2014\Configuration Tools">
+      <file name="SQL Server 2014 Configuration Manager" ext=".lnk" />
+      <file name="SQL Server 2014 Installation Center (64-bit)" ext=".lnk" />
+      <file name="SQL Server 2014 Reporting Services Configuration Manager" ext=".lnk" />
+    </dir>
+    <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Microsoft SQL Server 2014\Integration Services">
+      <file name="SQL Server 2014 Data Profile Viewer" ext=".lnk" />
+      <file name="SQL Server 2014 Deployment Wizard" ext=".lnk" />
+      <file name="SQL Server 2014 Execute Package Utility" ext=".lnk" />
+      <file name="SQL Server 2014 Project Conversion Wizard" ext=".lnk" />
+    </dir>
+    <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Microsoft SQL Server 2014\Performance Tools">
+      <file name="SQL Server 2014 Database Engine Tuning Advisor" ext=".lnk" />
+      <file name="SQL Server 2014 Profiler" ext=".lnk" />
+    </dir>
+    <file name="Download Microsoft SQL Server Compact" ext=".url" />
+    <file name="SQL Server 2014 Import and Export Data (32-bit)" ext=".lnk" />
+    <file name="SQL Server 2014 Management Studio" ext=".lnk" />
+  </dir>
+  <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\MySQL">
+    <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\MySQL\MySQL Connector Net 6.9.6">
+      <file name="ChangeLog" ext=".lnk" />
+      <file name="Documentation" ext=".lnk" />
+      <file name="Release Notes" ext=".lnk" />
+    </dir>
+    <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\MySQL\MySQL for Visual Studio 1.2.3">
+      <file name="ChangeLog" ext=".lnk" />
+      <file name="Documentation" ext=".lnk" />
+      <file name="Release Notes" ext=".lnk" />
+    </dir>
+    <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\MySQL\MySQL Installer - Community">
+      <file name="MySQL Installer - Community" ext=".lnk" />
+    </dir>
+    <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\MySQL\MySQL Notifier 1.1.6">
+      <file name="MySQL Notifier 1.1.6" ext=".lnk" />
+    </dir>
+    <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\MySQL\MySQL Server 5.6">
+      <file name="MySQL 5.6 Command Line Client - Unicode" ext=".lnk" />
+      <file name="MySQL 5.6 Command Line Client" ext=".lnk" />
+    </dir>
+    <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\MySQL\MySQL Utilities">
+      <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\MySQL\MySQL Utilities\Documentation">
+        <file name="MySQL Utilities - MySQL Fabric Manual (online)" ext=".lnk" />
+        <file name="mysqlauditadmin (online)" ext=".lnk" />
+        <file name="mysqlauditgrep (online)" ext=".lnk" />
+        <file name="mysqldbcompare (online)" ext=".lnk" />
+        <file name="mysqldbcopy (online)" ext=".lnk" />
+        <file name="mysqldbexport (online)" ext=".lnk" />
+        <file name="mysqldbimport (online)" ext=".lnk" />
+        <file name="mysqldiff (online)" ext=".lnk" />
+        <file name="mysqldiskusage (online)" ext=".lnk" />
+        <file name="mysqlfabric (online)" ext=".lnk" />
+        <file name="mysqlfailover (online)" ext=".lnk" />
+        <file name="mysqlfrm (online)" ext=".lnk" />
+        <file name="mysqlindexcheck (online)" ext=".lnk" />
+        <file name="mysqlmetagrep (online)" ext=".lnk" />
+        <file name="mysqlprocgrep (online)" ext=".lnk" />
+        <file name="mysqlreplicate (online)" ext=".lnk" />
+        <file name="mysqlrpladmin (online)" ext=".lnk" />
+        <file name="mysqlrplcheck (online)" ext=".lnk" />
+        <file name="mysqlrplms (online)" ext=".lnk" />
+        <file name="mysqlrplshow (online)" ext=".lnk" />
+        <file name="mysqlrplsync (online)" ext=".lnk" />
+        <file name="mysqlserverclone (online)" ext=".lnk" />
+        <file name="mysqlserverinfo (online)" ext=".lnk" />
+        <file name="mysqluc (online)" ext=".lnk" />
+        <file name="mysqluserclone (online)" ext=".lnk" />
+      </dir>
+      <file name="Doctrine extensions for PHP" ext=".lnk" />
+      <file name="MySQL Fabric configuration file" ext=".lnk" />
+      <file name="MySQL Utilities Console" ext=".lnk" />
+    </dir>
+    <file name="MySQL Workbench 6.3 CE" ext=".lnk" />
+  </dir>
+  <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Node.js">
+    <file name="Node.js command prompt" ext=".lnk" />
+    <file name="Node.js documentation" ext=".url" />
+    <file name="Node.js website" ext=".url" />
+    <file name="Node.js" ext=".lnk" />
+    <file name="Uninstall Node.js" ext=".lnk" />
+  </dir>
+  <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Notepad++">
+    <file name="Notepad++" ext=".lnk" />
+  </dir>
+  <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\NVIDIA Corporation">
+    <file name="GeForce Experience" ext=".lnk" />
+  </dir>
+  <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Python 3.4">
+    <file name="IDLE (Python GUI)" ext=".lnk" />
+    <file name="Module Docs" ext=".lnk" />
+    <file name="Python (command line)" ext=".lnk" />
+    <file name="Python Manuals" ext=".lnk" />
+    <file name="Uninstall Python" ext=".lnk" />
+  </dir>
+  <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp">
+    <file name="desktop" ext=".ini" />
+  </dir>
+  <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\System Tools">
+    <file name="Default Programs" ext=".lnk" />
+    <file name="desktop" ext=".ini" />
+    <file name="Task Manager" ext=".lnk" />
+    <file name="Windows Easy Transfer" ext=".lnk" />
+    <file name="Windows PowerShell" ext=".lnk" />
+  </dir>
+  <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Tablet PC" />
+  <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Telerik">
+    <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Telerik\JustCode">
+      <file name="JustCode Help" ext=".lnk" />
+    </dir>
+    <file name="JustTrace Dump Creator" ext=".lnk" />
+    <file name="Telerik Control Panel" ext=".lnk" />
+    <file name="Telerik JustTrace Q2 2015 SP1" ext=".lnk" />
+  </dir>
+  <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\TortoiseGit">
+    <file name="Help" ext=".lnk" />
+    <file name="Notepad2" ext=".lnk" />
+    <file name="Pageant" ext=".lnk" />
+    <file name="PuTTYgen" ext=".lnk" />
+    <file name="Settings" ext=".lnk" />
+    <file name="TortoiseGitBlame" ext=".lnk" />
+    <file name="TortoiseGitIDiff" ext=".lnk" />
+    <file name="TortoiseGitMerge" ext=".lnk" />
+  </dir>
+  <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\VideoLAN">
+    <file name="Documentation" ext=".lnk" />
+    <file name="Release Notes" ext=".lnk" />
+    <file name="VideoLAN Website" ext=".lnk" />
+    <file name="VLC media player - reset preferences and cache files" ext=".lnk" />
+    <file name="VLC media player skinned" ext=".lnk" />
+    <file name="VLC media player" ext=".lnk" />
+  </dir>
+  <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio 2013">
+    <file name="Blend for Visual Studio 2013" ext=".lnk" />
+    <file name="Microsoft Test Manager 2013" ext=".lnk" />
+    <file name="Visual Studio 2013" ext=".lnk" />
+    <file name="Visual Studio Tools" ext=".lnk" />
+  </dir>
+  <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Windows Kits">
+    <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Windows Kits\Application Verifier (X64)">
+      <file name="Application Verifier (X64)" ext=".lnk" />
+      <file name="Application Verifier Help" ext=".lnk" />
+    </dir>
+    <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Windows Kits\Application Verifier (X86)">
+      <file name="Application Verifier (WOW)" ext=".lnk" />
+    </dir>
+    <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Windows Kits\Windows App Certification Kit">
+      <file name="Windows App Cert Kit" ext=".lnk" />
+    </dir>
+    <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Windows Kits\Windows Performance Toolkit">
+      <file name="desktop" ext=".ini" />
+      <file name="Windows Performance Analyzer" ext=".lnk" />
+      <file name="Windows Performance Recorder" ext=".lnk" />
+    </dir>
+    <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Windows Kits\Windows Software Development Kit">
+      <file name="Documentation for Desktop Apps" ext=".lnk" />
+      <file name="Documentation for Windows Store Apps" ext=".lnk" />
+      <file name="Samples for Desktop Apps" ext=".lnk" />
+      <file name="Samples for Windows Store Apps" ext=".lnk" />
+      <file name="Tools for Desktop Apps" ext=".lnk" />
+      <file name="Tools for Windows Store Apps" ext=".lnk" />
+      <file name="Windows Software Development Kit" ext=".lnk" />
+    </dir>
+  </dir>
+  <dir path="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\WinRAR">
+    <file name="WinRAR" ext=".lnk" />
+    <file name="Какво е новото в последната версия" ext=".lnk" />
+    <file name="Помощен файл на WinRAR" ext=".lnk" />
+    <file name="Ръководство за конзолната версия на RAR" ext=".lnk" />
+  </dir>
+  <file name="Camera" ext=".lnk" />
+  <file name="desktop" ext=".ini" />
+  <file name="Desktop" ext=".lnk" />
+  <file name="FileManager" ext=".lnk" />
+  <file name="Immersive Control Panel" ext=".lnk" />
+  <file name="Opera" ext=".lnk" />
+  <file name="PhotosApp" ext=".lnk" />
+  <file name="Search" ext=".lnk" />
+  <file name="TeamViewer 9" ext=".lnk" />
+  <file name="Windows Store" ext=".lnk" />
+</dir>

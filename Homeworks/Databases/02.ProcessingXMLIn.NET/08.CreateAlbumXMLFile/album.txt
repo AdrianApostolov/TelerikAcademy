@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<albums>
+	<album>
+		<name>Straight Outta Compton</name>
+		<artist>N.W.A.</artist>
+	</album>
+	<album>
+		<name>The Eminem Show </name>
+		<artist>Eminem</artist>
+	</album>
+	<album>
+		<name>Legend</name>
+		<artist>Bob Marley</artist>
+	</album>
+</albums>
