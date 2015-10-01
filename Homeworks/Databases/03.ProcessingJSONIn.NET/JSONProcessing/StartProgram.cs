@@ -25,7 +25,7 @@
             PrintTitles(titles);
 
             var videos = GetVideos(json);
-            GenereteHtml(videos);
+            GenerateHtml(videos);
         }
 
         private static string DownLoadRss(string url)
@@ -74,7 +74,7 @@
                    .Select(entry => JsonConvert.DeserializeObject<Video>(entry.ToString()));
         }
 
-        private static void GenereteHtml(IEnumerable<Video> videos)
+        private static void GenerateHtml(IEnumerable<Video> videos)
         {
             var html = "<!DOCTYPE html><html><body>";
 
