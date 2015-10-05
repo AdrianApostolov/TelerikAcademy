@@ -1,4 +1,4 @@
-## Database Modelling
+## Intro To SQL
 ### _Homework_
 
 1.	What is SQL? What is DML? What is DDL? Recite the most important SQL commands.

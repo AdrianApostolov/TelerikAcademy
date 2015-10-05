@@ -1,4 +1,4 @@
-## 03. Database Modelling
+## Database Modelling
 ### _Homework_
 
 1.	Create the following database diagram in SQL Server:
