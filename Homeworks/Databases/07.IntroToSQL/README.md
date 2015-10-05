@@ -1,19 +1,27 @@
-## 07. Structured Query Language (SQL)
-### [View Presentation online](https://rawgit.com/TelerikAcademy/Databases/master/07.%20Intro%20to%20SQL/Slides/index.html)
-### Table of Contents
-*	Relational Databases and SQL - [go to slide](https://rawgit.com/TelerikAcademy/Databases/master/07.%20Intro%20to%20SQL/Slides/index.html#/sql)
-*	SQL and T-SQL Languages - [go to slide](https://rawgit.com/TelerikAcademy/Databases/master/07.%20Intro%20to%20SQL/Slides/index.html#/sql-introduction)
-*	Introducing the `SELECT` SQL Statement - [go to slide](https://rawgit.com/TelerikAcademy/Databases/master/07.%20Intro%20to%20SQL/Slides/index.html#/select)
-	*	Allowed Operators
-	*	The `WHERE` Clause - [go to slide](https://rawgit.com/TelerikAcademy/Databases/master/07.%20Intro%20to%20SQL/Slides/index.html#/4/12)
-	*	Sorting with `ORDER BY` - [go to slide](https://rawgit.com/TelerikAcademy/Databases/master/07.%20Intro%20to%20SQL/Slides/index.html#/4/16)
-	*	Selecting Data From Multiple Tables - [go to slide](https://rawgit.com/TelerikAcademy/Databases/master/07.%20Intro%20to%20SQL/Slides/index.html#/data-from-multiple-tables)
-		*	Natural Joins
-		*	Join with `USING` Clause
-		*	Inner Joins with `ON` Clause - [go to slide](https://rawgit.com/TelerikAcademy/Databases/master/07.%20Intro%20to%20SQL/Slides/index.html#/5/5)
-		*	Left, Right and Full Outer Joins - [go to slide](https://rawgit.com/TelerikAcademy/Databases/master/07.%20Intro%20to%20SQL/Slides/index.html#/5/9)
-		*	Cross Joins - [go to slide](https://rawgit.com/TelerikAcademy/Databases/master/07.%20Intro%20to%20SQL/Slides/index.html#/5/14)
-*	Inserting Data - [go to slide](https://rawgit.com/TelerikAcademy/Databases/master/07.%20Intro%20to%20SQL/Slides/index.html#/inserting-data)
-*	Updating Data - [go to slide](https://rawgit.com/TelerikAcademy/Databases/master/07.%20Intro%20to%20SQL/Slides/index.html#/updating-data)
-*	Deleting Data - [go to slide](https://rawgit.com/TelerikAcademy/Databases/master/07.%20Intro%20to%20SQL/Slides/index.html#/deleting-data)
-*	MySQL Extensions to Standard SQL - [go to slide](https://rawgit.com/TelerikAcademy/Databases/master/07.%20Intro%20to%20SQL/Slides/index.html#/mysql-extensions)
+## 03. Database Modelling
+### _Homework_
+
+1.	What is SQL? What is DML? What is DDL? Recite the most important SQL commands.
+1.	What is Transact-SQL (T-SQL)?
+1.	Start SQL Management Studio and connect to the database TelerikAcademy. Examine the major tables in the "TelerikAcademy" database.
+1.	Write a SQL query to find all information about all departments (use "TelerikAcademy" database).
+1.	Write a SQL query to find all department names.
+1.	Write a SQL query to find the salary of each employee.
+1.	Write a SQL to find the full name of each employee.
+1.	Write a SQL query to find the email addresses of each employee (by his first and last name). Consider that the mail domain is telerik.com. Emails should look like “John.Doe@telerik.com". The produced column should be named "Full Email Addresses".
+1.	Write a SQL query to find all different employee salaries.
+1.	Write a SQL query to find all information about the employees whose job title is “Sales Representative“.
+1.	Write a SQL query to find the names of all employees whose first name starts with "SA".
+1.	Write a SQL query to find the names of all employees whose last name contains "ei".
+1.	Write a SQL query to find the salary of all employees whose salary is in the range [20000…30000].
+1.	Write a SQL query to find the names of all employees whose salary is 25000, 14000, 12500 or 23600.
+1.	Write a SQL query to find all employees that do not have manager.
+1.	Write a SQL query to find all employees that have salary more than 50000. Order them in decreasing order by salary.
+1.	Write a SQL query to find the top 5 best paid employees.
+1.	Write a SQL query to find all employees along with their address. Use inner join with `ON` clause.
+1.	Write a SQL query to find all employees and their address. Use equijoins (conditions in the `WHERE` clause).
+1.	Write a SQL query to find all employees along with their manager.
+1.	Write a SQL query to find all employees, along with their manager and their address. Join the 3 tables: `Employees e`, `Employees m` and `Addresses a`.
+1.	Write a SQL query to find all departments and all town names as a single list. Use `UNION`.
+1.	Write a SQL query to find all the employees and the manager for each of them along with the employees that do not have manager. Use right outer join. Rewrite the query to use left outer join.
+1.	Write a SQL query to find the names of all employees from the departments "Sales" and "Finance" whose hire year is between 1995 and 2005.
