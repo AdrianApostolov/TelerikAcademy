@@ -1,0 +1,13 @@
+﻿<div class="container text-center" ng-cloak>
+    <div class="clearfix">
+        <p>
+            <h4 class="pull-left"><strong>Player X:</strong> {{vm.currentGame.FirstPlayerName}}</h4>
+            <h4 class="pull-right"><strong>Player O:</strong> {{vm.currentGame.SecondPlayerName}}</h4>
+            <h4 class="text-center"><strong>Game Status:</strong> {{vm.currentGame | stateFilter}}</h4>
+        </p>
+    </div>
+    <div class="game-board center" ng-repeat="square in vm.squares track by $index">
+        <span class="game-square" id="{{$index}}" ng-click="vm.play($event)">{{square | boardFilter}}</span>
+    </div>
+</div>
+

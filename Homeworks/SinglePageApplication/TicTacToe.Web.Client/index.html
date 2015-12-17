@@ -1,0 +1,67 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Tic Tac Toe</title>
+    <link href="styles/bootstrap.min.css" rel="stylesheet" />
+    <link href="styles/bootstrap-theme.css" rel="stylesheet" />
+    <link href="styles/toastr.min.css" rel="stylesheet" />
+    <link href="styles/app.css" rel="stylesheet" />
+</head>
+<body ng-app="TicTacToe" ng-cloak>
+    <div class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="#/" class="navbar-brand" style="color: aqua">Tic Tac Toe</a>
+                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse" id="navbar-main">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#/games">Games</a>
+                    </li>
+                </ul>
+                <div ng-include="'templates/auth/login.html'"></div>
+            </div>
+        </div>
+    </div>
+    <div ng-view>
+    </div>
+    <hr />
+    <footer class="text-center" ng-cloak>
+        <strong>Copyright:</strong> <a href="https://github.com/AdrianApostolov" target="_blank">Adrian Apostolov</a></small>
+        <br />
+        Powered by:</strong> <a href="http://angularjs.org/" target="_blank">AngularJS</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a></small>
+    </footer>
+    <hr />
+    <!--Libs-->
+    <script src="app/libs/jquery-2.1.4.min.js"></script>
+    <script src="app/libs/toastr.min.js"></script>
+    <script src="app/libs/bootstrap.min.js"></script>
+    <script src="app/libs/angular-1.4.8/angular.js"></script>
+    <script src="app/libs/angular-1.4.8/angular-resource.js"></script>
+    <script src="app/libs/angular-1.4.8/angular-route.js"></script>
+    <script src="app/libs/angular-1.4.8/angular-cookies.js"></script>
+    <script src="app/libs/angular-1.4.8/angular-animate.js"></script>
+    <script src="app/libs/xtForm.js"></script>
+
+    <!--App-->
+    <script src="app/app.js"></script>
+    <script src="app/controllers/LoginController.js"></script>
+    <script src="app/controllers/RegisterController.js"></script>
+    <script src="app/controllers/GameController.js"></script>
+    <script src="app/controllers/PlayGameController.js"></script>
+
+    <script src="app/services/account/auth.js"></script>
+    <script src="app/services/account/authorization.js"></script>
+    <script src="app/services/account/identity.js"></script>
+    <script src="app/services/game/game-service.js"></script>
+
+    <script src="app/filters/state-filter.js"></script>
+    <script src="app/filters/board-filter.js"></script>
+</body>
+</html>
