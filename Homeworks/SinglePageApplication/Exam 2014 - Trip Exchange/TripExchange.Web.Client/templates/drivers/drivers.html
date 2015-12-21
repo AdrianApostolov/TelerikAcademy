@@ -1,0 +1,25 @@
+﻿<div class="container">
+    <h2 class="text-center">Drivers</h2>
+    <div ng-if="vm.identity.isAuthenticated()" class="row">
+        <div class="col-md-2">
+            <input id="username" placeholder="Username search" class="form-control" type="text" ng-change="vm.filter(vm.request)" ng-model="vm.request.username" />
+        </div>
+        <div class="col-md-2">
+            <button class="btn btn-info" ng-click="vm.filter(vm.request)">Filter</button>
+        </div>
+        <div class="col-md-offset-8 col-md-1">
+            <button class="btn btn-info" ng-click="vm.previousPage()" ng-disabled="vm.request.page == 1">&lt;&lt;</button>
+        </div>
+        <div class="col-md-2">
+            <input type="text" class="form-control" ng-model="vm.request.page" value="1" />
+        </div>
+        <div class="col-md-1">
+            <button class="btn btn-info pull-right" ng-click="vm.nextPage()">&gt;&gt;</button>
+        </div>
+    </div>
+    <br />
+    <div drivers ng-if="vm.drivers.length" />
+    <div ng-if="!vm.drivers.length">
+        <h2 class="text-center">No results!</h2>
+    </div>
+</div>

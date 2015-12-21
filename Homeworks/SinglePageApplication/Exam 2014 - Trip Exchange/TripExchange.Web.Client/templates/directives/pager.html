@@ -1,0 +1,5 @@
+﻿<div class="row text-center">
+    <ul class="pagination">
+        <li ng-repeat="page in vm.pages" ng-class="page == vm.currentPage ? 'active' : ''"><a href="#/trips" ng-click="vm.search(vm.request, page)">{{page}}</a></li>
+    </ul>
+</div>

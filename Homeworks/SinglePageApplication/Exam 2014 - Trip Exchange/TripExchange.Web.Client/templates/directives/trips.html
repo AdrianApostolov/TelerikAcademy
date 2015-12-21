@@ -1,0 +1,24 @@
+﻿<table class="table table-striped table-bordered table-hover">
+    <thead>
+        <tr>
+            <th class="text-center">Driver</th>
+            <th class="text-center">From</th>
+            <th class="text-center">To</th>
+            <th class="text-center">Departure Time</th>
+            <th class="text-center" ng-if="vm.identity && vm.identity.isAuthenticated()">
+                Is Mine
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="trip in vm.trips | filter: { isMine: vm.mine } | orderBy: vm.sort">
+            <td class="text-center"><a href="#/drivers/{{trip.driverId}}">{{trip.driverName}}</a></td>
+            <td class="text-center">{{trip.from}}</td>
+            <td class="text-center">{{trip.to}}</td>
+            <td class="text-center"><a  href="#/trips/{{trip.id}}">{{trip.departureDate | date: 'medium'}}</a></td>
+            <td class="text-center" ng-if="vm.identity && vm.identity.isAuthenticated()">
+                <img width="25px" ng-src="/img/{{trip.isMine ? 'ok.png' : 'not-ok.jpg'}}"
+            </td>
+        </tr>
+    </tbody>
+</table>
