@@ -1,0 +1,29 @@
+doctype
+html
+    head
+        title Mobile shop
+        link(rel="stylesheet" type='text/css' href="/lib/bootstrap/dist/css/bootstrap.css")
+        link(rel="stylesheet" type='text/css' href="/lib/bootstrap/dist/css/bootstrap-theme.min.css")
+        link(rel="stylesheet" type='text/css' href="/css/app.css")
+    body
+        header.nav.navbar-inverse.navbar-fixed-top
+            .container
+                .navbar-header
+                    a.navbar-brand(href="/") Mobile shop
+                .navbar-collapse.collapse
+                    ul.nav.navbar-nav
+                        li
+                            a(href="/home") Home
+                        li
+                            a(href="/phones") Smart phones
+                        li
+                            a(href="/tablets") Tablets
+                        li
+                            a(href="/wearables ") Wearables
+        section
+            .jumbotron.text-center
+                block content
+
+        footer
+            p.text-center
+                | &copy; Telerik Academy 2015
