@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="ProfilePage.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css" />
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="mainForm" runat="server">
+        <nav class="side-nav fixed card-panel teal lighten-2">
+            <ul class="collapsible collapsible-accordion">
+                <li><a href="~/Views/Home.aspx" runat="server">Home</a></li>
+                <li><a href="~/Views/Profile.aspx" runat="server">Profile</a></li>
+                <li><a href="~/Views/AdditionalInfo.aspx" runat="server">Additional Information</a></li>
+                <li><a href="~/Views/Friends.aspx" runat="server">Friends</a></li>
+            </ul>
+        </nav>
+        <div style="margin-left: 300px;">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

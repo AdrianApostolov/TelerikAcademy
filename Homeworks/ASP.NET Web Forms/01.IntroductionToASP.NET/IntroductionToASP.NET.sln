@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumNumbers", "SumNumbers\SumNumbers.csproj", "{9C68B71E-F91F-4B98-AE26-B4064286F088}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumNumberMVC", "SumNumberMVC\SumNumberMVC.csproj", "{1262055F-499C-4FC4-B4F0-CC8A3985D4A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextToImageHttpHandler", "TextToImageHttpHandler\TextToImageHttpHandler.csproj", "{6F3A9FD5-6C84-4DC6-A98C-7649D4EAF12E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C68B71E-F91F-4B98-AE26-B4064286F088}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C68B71E-F91F-4B98-AE26-B4064286F088}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C68B71E-F91F-4B98-AE26-B4064286F088}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C68B71E-F91F-4B98-AE26-B4064286F088}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1262055F-499C-4FC4-B4F0-CC8A3985D4A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1262055F-499C-4FC4-B4F0-CC8A3985D4A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1262055F-499C-4FC4-B4F0-CC8A3985D4A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1262055F-499C-4FC4-B4F0-CC8A3985D4A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F3A9FD5-6C84-4DC6-A98C-7649D4EAF12E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F3A9FD5-6C84-4DC6-A98C-7649D4EAF12E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F3A9FD5-6C84-4DC6-A98C-7649D4EAF12E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F3A9FD5-6C84-4DC6-A98C-7649D4EAF12E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "Calculate Sum";
+}
+
+<div class="jumbotron text-center">
+    <div class="row text-center">
+        <div class="col-md-12">
+            <h3 class="text-center">Calculator</h3>
+            <form id="calculatorForm" method="post">
+                <div class="row">
+                    <div class="input-field col s3 push-s3">
+                        <input id="first-number" name="firstNumber" type="text" value="@ViewBag.firstNumber" class="validate" />
+                        <label for="first-number" class="active">First Number</label>
+                    </div>
+                    <div class="input-field col s3 push-s3">
+                        <input id="second-number" name="secondNumber" type="text"  value="@ViewBag.secondNumber" class="validate" />
+                        <label for="second-number" class="active">Second Number</label>
+                    </div>
+                </div>
+                <div class="row">
+                     <div class="row">
+                        Result: <span>@ViewBag.Sum</span>
+                    </div>
+                    <input class="waves-effect waves-light btn" value="Sum" type="submit" />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
