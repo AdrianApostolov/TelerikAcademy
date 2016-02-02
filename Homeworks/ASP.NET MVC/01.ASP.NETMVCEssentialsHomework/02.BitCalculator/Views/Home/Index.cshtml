@@ -1,0 +1,63 @@
+﻿@model IEnumerable<BitCalculator.ViewModels.EntityViewModel>
+@{
+    ViewBag.Title = "Bit Calculator";
+}
+
+<div class="card-panel">
+    <h3 class="center">Bit Calculator</h3>
+
+    <form action="" method="get" class="center">
+        <div class="row">
+            <div class="input-field col offset-s3 s6">
+                <label>Quantity</label>
+                <input type="text" name="quantity" value="@((ViewBag.Quantity == 0 || ViewBag.Quantity == null) ? 1 : ViewBag.Quantity)" />
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="input-field col offset-s3 s6">
+                <select name="type">
+                    @foreach (var unit in Model)
+                    {
+                        <option value="@unit.Name" selected="@(ViewBag.SelectedType == unit.Name ? true : false )">@unit.Name</option>
+                    }
+                </select>
+                <label>Type</label>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="input-field col offset-s3 s6">
+                <select name="kilo">
+                    <option value="1000" selected="@(ViewBag.SelectedKilo == 1000 ? true : false)">1000</option>
+                    <option value="1024" selected="@(ViewBag.SelectedKilo == 1024 ? true : false)">1024</option>
+                </select>
+                <label>Kilo</label>
+                <br />
+            </div>
+        </div>
+        <input type="submit" value="Calculate" class="btn center" />
+    </form>
+
+    <div class="row">
+        <div class="col offset-s3 s6">
+            <table class="striped">
+                <thead>
+                    <tr>
+                        <th class="center">Type</th>
+                        <th class="center">Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var unit in Model)
+                    {
+                        <tr>
+                            <td class="center">@unit.Name</td>
+                            <td class="center">@unit.Value</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

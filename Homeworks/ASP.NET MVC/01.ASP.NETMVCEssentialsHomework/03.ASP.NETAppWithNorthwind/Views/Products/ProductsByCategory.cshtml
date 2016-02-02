@@ -1,0 +1,33 @@
+﻿@model IEnumerable<Product>
+@{
+    ViewBag.Title = "ProductsByCategory";
+}
+
+<div class="card-panel">
+    <h2 class="center">Product by category @Model.FirstOrDefault().Category.CategoryName</h2>
+    <div class="row">
+        <div class="col s12">
+            <table class="striped">
+                <thead>
+                <tr>
+                    <th class="center">Product name</th>
+                    <th class="center">Supplier name</th>
+                    <th class="center">Unit price</th>
+                    <th class="center">Units in stock</th>
+                </tr>
+                </thead>
+                <tbody>
+                @foreach (var product in Model)
+                {
+                    <tr>
+                        <td class="center">@product.ProductName</td>
+                        <td class="center">@product.Supplier.CompanyName</td>
+                        <td class="center">@product.UnitPrice</td>
+                        <td class="center">@product.UnitsInStock</td>
+                    </tr>
+                }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,38 @@
+﻿@model IEnumerable<Customer>
+@{
+    ViewBag.Title = "All";
+}
+
+<div class="card-panel">
+    <h2 class="center">Customers</h2>
+    <div class="row">
+        <div class="col s12">
+            <table class="striped">
+                <thead>
+                    <tr>
+                        <th class="center">Company name</th>
+                        <th class="center">Country</th>
+                        <th class="center">City</th>
+                        <th class="center">Address</th>
+                        <th class="center">PostalCode</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var customer in Model)
+                    {
+                        <tr>
+                            <td class="center">@customer.CompanyName</td>
+                            <td class="center">@customer.Country</td>
+                            <td class="center">@customer.City</td>
+                            <td class="center">@customer.Address</td>
+                            <td class="center">@customer.PostalCode</td>
+                            <td class="center">@customer.PostalCode</td>
+                            <td class="center"><a href="/Customers/CustomerDetails/@customer.CustomerID">Details</a></td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,22 @@
+﻿@model Customer
+@{
+    ViewBag.Title = "CustomerDetails";
+}
+
+<div class="card-panel hoverable">
+    <div class="row">
+        <h2 class="center">Customer Details</h2>
+        <div class="col s6">
+            <img src="http://academy.telerik.com/images/default-album/programming-champion-telerik-academy.png?sfvrsn=2"/>
+        </div>
+        <div class="col s6">
+            <ul>
+                <li class="center"><h4>@Model.ContactName</h4></li>
+                <li class="center"><h4>@Model.City</h4></li>
+                <li class="center"><h4>@Model.Phone</h4></li>
+                <li class="center"><h4>@Model.Fax</h4></li>
+            </ul>
+        </div>
+    </div>
+</div>
+

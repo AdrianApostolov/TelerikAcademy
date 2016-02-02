@@ -1,0 +1,31 @@
+﻿@model IEnumerable<Category>
+@{
+    ViewBag.Title = "All";
+}
+
+<div class="card-panel">
+    <h2 class="center">Categories</h2>
+    <div class="row">
+        <div class="col s12">
+            <table class="striped">
+                <thead>
+                <tr>
+                    <th class="center">CategoryName</th>
+                    <th class="center">Description</th>
+                </tr>
+                </thead>
+                <tbody>
+                @foreach (var category in Model)
+                {
+                    <tr>
+                        <td class="center">@category.CategoryName</td>
+                        <td class="center">@category.Description</td>
+                        <td class="center"><a href="/Products/ProductsByCategory/@category.CategoryID">View products</a></td>
+                    </tr>
+                }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+

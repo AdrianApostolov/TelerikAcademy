@@ -1,0 +1,38 @@
+﻿@model IEnumerable<Employee>
+@{
+    ViewBag.Title = "EmployeeDetails";
+}
+
+<div class="card-panel">
+    <h2 class="center">Employees Details</h2>
+    <div class="row">
+        <div class="col s12">
+            <table class="striped">
+                <thead>
+                    <tr>
+                        <th class="center">First name</th>
+                        <th class="center">Last name</th>
+                        <th class="center">Country</th>
+                        <th class="center">City</th>
+                        <th class="center">Address</th>
+                        <th class="center">PostalCode</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var employee in Model)
+                    {
+                        <tr>
+                            <td class="center">@employee.FirstName</td>
+                            <td class="center">@employee.LastName</td>
+                            <td class="center">@employee.Country</td>
+                            <td class="center">@employee.City</td>
+                            <td class="center">@employee.Address</td>
+                            <td class="center">@employee.PostalCode</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
