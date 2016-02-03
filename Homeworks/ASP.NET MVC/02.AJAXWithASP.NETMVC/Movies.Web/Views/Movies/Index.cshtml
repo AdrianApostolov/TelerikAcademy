@@ -1,0 +1,61 @@
+﻿@model IEnumerable<Movies.Web.ViewModels.MovieViewModel>
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="card-panel">
+
+    <div class="row">
+        <h2 class="center">Movies</h2>
+            <a href="/Movies/Create" class="waves-effect waves-light btn-large">Create movie</a>
+    </div>
+    <div class="row">
+        <div class="col s12">
+            <table class="striped">
+                <thead>
+                    <tr>
+                        <th class="center">Name</th>
+                        <th class="center">Year</th>
+                        <th class="center">Studio name</th>
+                        <th class="center">Studio adress</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var movie in Model)
+                    {
+                        <tr>
+                            <td class="center">@movie.Title</td>
+                            <td class="center">@movie.Year</td>
+                            <td class="center">@movie.StudioName</td>
+                            <td class="center">@movie.StudioAddress</td>
+                            <td class="center">
+                                @Ajax.ActionLink("Edit", "Edit", new { id = movie.Id},
+                new AjaxOptions
+                {
+                    UpdateTargetId = "ajax-container",
+                    HttpMethod = "GET",
+                    InsertionMode = InsertionMode.Replace
+                }, new { @class = "btn green" })
+                                @Ajax.ActionLink("Details", "Details", new { id = movie.Id},
+                new AjaxOptions
+                {
+                    UpdateTargetId = "ajax-container",
+                    HttpMethod = "GET",
+                    InsertionMode = InsertionMode.Replace
+                }, new { @class = "btn  blue" })
+                                @Ajax.ActionLink("Delete", "Delete", new { id = movie.Id},
+                new AjaxOptions
+                {
+                    UpdateTargetId = "ajax-container",
+                    HttpMethod = "GET",
+                    InsertionMode = InsertionMode.Replace
+                }, new {@class = "btn red"})
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<div id="ajax-container"></div>

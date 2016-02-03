@@ -1,0 +1,21 @@
+﻿@model Movies.Models.Movie
+@{
+    ViewBag.Title = "Details";
+    Layout = null;
+}
+
+<div class="card-panel s4">
+    <div class="row">
+        <div class="col offset-s3 s6 center">
+            <h5>Movie Details</h5>
+            <ul>
+                <li>NAME: <b>@Model.Title</b></li>
+                <li>YEAR: <b>@Model.Year</b></li>
+                <li>MALE ROLE: <b>@Model.LeadingMaleRole.Name</b></li>
+                <li>FEMALE ROLE <b>@Model.LeadingFemaleRole.Name</b></li>
+                <li>STUDIO NAME:  <b>@Model.StudioName</b></li>
+                <li>ADDRESS:  <b>@Model.StudioAddress</b></li>
+            </ul>
+        </div>
+    </div>
+</div>

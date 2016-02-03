@@ -1,0 +1,78 @@
+﻿@model Movies.Web.ViewModels.MovieViewModel
+@{
+    ViewBag.Title = "Create";
+}
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <div class="row">
+        <div class="col s6 offset-s3">
+            <div class="card-panel z-depth-4">
+                <h4>Create movie</h4>
+                <div class="row">
+                    <div class="input-field col s12">
+                        @Html.EditorFor(m => m.Title)
+                        @Html.LabelFor(m => m.Title)
+                        @Html.ValidationMessageFor(model => model.Title)
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        @Html.EditorFor(m => m.Year)
+                        @Html.LabelFor(m => m.Year)
+                        @Html.ValidationMessageFor(model => model.Year)
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        @Html.EditorFor(m => m.StudioName)
+                        @Html.LabelFor(m => m.StudioName)
+                        @Html.ValidationMessageFor(model => model.StudioName)
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        @Html.EditorFor(m => m.StudioAddress)
+                        @Html.LabelFor(m => m.StudioAddress)
+                        @Html.ValidationMessageFor(model => model.StudioAddress)
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        @Html.EditorFor(m => m.LeadingMaleRole)
+                        @Html.LabelFor(m => m.LeadingMaleRole)
+                        @Html.ValidationMessageFor(model => model.LeadingMaleRole)
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        @Html.EditorFor(m => m.LeadingMaleRoleAge)
+                        @Html.LabelFor(m => m.LeadingMaleRoleAge)
+                        @Html.ValidationMessageFor(model => model.LeadingMaleRoleAge)
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        @Html.EditorFor(m => m.LeadingFemaleRole)
+                        @Html.LabelFor(m => m.LeadingFemaleRole)
+                        @Html.ValidationMessageFor(model => model.LeadingFemaleRole)
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        @Html.EditorFor(m => m.LeadingFemaleRoleAge)
+                        @Html.LabelFor(m => m.LeadingFemaleRoleAge)
+                        @Html.ValidationMessageFor(model => model.LeadingFemaleRoleAge)
+                    </div>
+                </div>
+                <div class="center">
+                    <input type="submit" value="Create" class="btn" />
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
