@@ -1,0 +1,31 @@
+﻿@model IEnumerable<Twitter.Web.ViewModels.UserViewModel>
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="card-panel">
+    <h2 class="center">Users</h2>
+    <div class="row">
+        <div class="col s12">
+            <table class="striped">
+                <thead>
+                    <tr>
+                        <th class="center">Username</th>
+                        <th class="center">E-mail</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var user in Model)
+                    {
+                        <tr>
+                            <td class="center">@user.UserName</td>
+                            <td class="center">@user.Email</td>
+                            <td class="center"><a href="/Users/Details/@user.Id">Details</a></td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,27 @@
+﻿@model IEnumerable<Twitter.Web.ViewModels.TweetViewModel>
+@{
+    ViewBag.Title = "Details";
+}
+
+<div class="card-panel">
+    <h3 class="center">User details for <b>@ViewBag.CurrentUser</b></h3>
+
+    <ul class="collection">
+        @foreach (var tweet in Model)
+        {
+            <li class="collection-item avatar">
+                <img src="https://pbs.twimg.com/profile_images/666407537084796928/YBGgi9BO.png" alt="" class="circle">
+                <span class="title">Tweet #: @tweet.Id</span>
+                <p>
+                    @tweet.Content<br>
+                    @foreach (var tag in tweet.Tags)
+                    {
+                        @tag
+                    }
+                </p>
+                <a href="" class="secondary-content"><i class="material-icons">grade</i></a>
+            </li>
+        }
+    </ul>
+</div>
+

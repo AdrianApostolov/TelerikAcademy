@@ -1,0 +1,36 @@
+﻿@using Kendo.Mvc.UI
+@model IEnumerable<Twitter.Models.Tweet>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="card-panel">
+    <h3>Tweets Admin Panel</h3>
+
+    @(Html.Kendo().Grid(Model)
+        .Name("Grid")
+        .HtmlAttributes(new { style = "border: 0;" })
+        .Columns(columns =>
+        {
+            columns.Bound(p => p.Id).Groupable(true);
+            columns.Bound(p => p.Content);
+            columns.Command(command => { command.Edit(); command.Destroy(); }).Width(200);
+        })
+        .ToolBar(toolbar => toolbar.Create())
+        .Editable(editable => editable.Mode(GridEditMode.PopUp))
+        .Pageable()
+        .Sortable()
+        .Filterable()
+        .Navigatable()
+        .Selectable(selectable => selectable.Mode(GridSelectionMode.Multiple))
+        .DataSource(dataSource => dataSource
+            .Server()
+            .Model(model => model.Id(p => p.Id))
+            .Create(create => create.Action("Create", "TweetsAdministration"))
+            .Update(update => update.Action("Edit", "TweetsAdministration"))
+            .Destroy(destroy => destroy.Action("Delete", "TweetsAdministration"))
+        )
+
+    )
+</div>
